@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Kanatype demo</title>
+    <script src="kanabox.js"></script>
+    <script>
+        window.onload = () => {
+            KanaBox(document.querySelector(".kanabox"));
+        };
+    </script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            display: inline-block;
+        }
+
+        .description {
+            border: solix 1px red;
+        }
+
+        input {
+            width: 100%;
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <input type="text" class="kanabox" />
+            <div class="description">
+                Type lowercase for Hiragana, type uppercase for Katakana<br />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
