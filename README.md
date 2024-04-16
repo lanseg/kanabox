@@ -5,4 +5,4 @@ into a kana input by transliterating the input. Just type UPPER for Katakana and
 
 Just type "ohayougozaimasu" to get "おはようございます"
 
-Saved from my old backups.
+[See demo on codepen](https://codepen.io/etpivxpe-the-animator/pen/NWmLpmq)
